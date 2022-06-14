@@ -1,0 +1,82 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+.HeaderBox {
+  flex-basis: 50%;
+  flex-grow: 0;
+  text-align: center;
+}
+
+.Header{
+  text-align: center;
+}
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 70%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td,table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 10px 2px;
+}
+
+table.blueTable th{
+  background-color: #C8B207;
+}
+
+table.blueTable td{
+  background-color: #FFF407;
+}
+
+table.blueTable tbody td {
+  font-size: 17px;
+}
+
+table.blueTable thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  border-left: 2px solid #D0E4F5;
+}
